@@ -35,9 +35,7 @@ local Tab = Window:NewTab("Teleport")
 local Section = Tab:NewSection("Section Name")
 
 Section:NewButton("Teleport Vasya Bruklin", "ButtonInfo", function()
-Workspace.Live.ZERO201057.HumanoidRootPart.CFrame = Workspace.NPCPotato["peter griffin"].CFrame
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.NPCPotato["peter griffin"].CFrame
 end)
 
 local Tab = Window:NewTab("Info")
-
-local Section = Tab:NewSection("Info")
